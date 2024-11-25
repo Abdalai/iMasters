@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/about.css";
-import About_Us_Hero from "../components/About_us_hero.js";
+import AboutUsHero from "../components/About_us_hero.js";
 import ContactForm from "../components/ContactForm.js";
 
 
@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <div clt_assName="home-page">
-      <About_Us_Hero/>
+      <AboutUsHero/>
       <div className="body-container">
         
         <section className="Choose_iMasters">
