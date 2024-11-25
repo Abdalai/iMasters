@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom"; 
 import "../styles/footer.css"; 
 
+
 const Footer = () => {
   return (
     <footer className="footer" role="contentinfo"> 
@@ -28,7 +29,7 @@ const Footer = () => {
           </details>
         </div>
         <div className="social-media"> 
-          <img src="./images/imasters-logo.jpeg"
+          <img src="./images/imasters-logo.png"
               alt="imasters_logo" ></img>
         </div>
         <p className="copyright">Copyright ©2024 iMasters Solutions LTD</p>
@@ -39,10 +40,9 @@ const Footer = () => {
         <div className="footer-columns"> 
           <div className="footer-logo">
             <img
-              src="./images/imasters-logo.jpeg"
+              src="./images/imasters-logo.png"
               alt="imasters_logo" 
             />
-            
           </div>
           <div className="footer-column">
             <h4>Address</h4> 
