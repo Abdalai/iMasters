@@ -1,4 +1,4 @@
-import AboutHero from "./About_Hero_Display";
+import AboutHero from "./AboutHero";
 
 
 export default function AboutUsHero() {
@@ -13,7 +13,7 @@ export default function AboutUsHero() {
              iMasters is your reevaluated IT division, focused on assisting you with prevailing through combination of development consultancy, business coherence and IT support. By reducing expenses and further developing efficiency through innovation, we give your business the opportunity to go about your best inventive responsibilities.
           </p>
         </div>
-        <AboutUsHero /> 
+        <AboutHero /> 
       </div>
     </section>
   );
