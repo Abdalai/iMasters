@@ -1,0 +1,22 @@
+.hero-section-heading h1{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.Our_Clients h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    
+}
+
+
+.Clients{
+    margin-bottom: 7rem;
+    background-color: var(--primary-light);
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    border-radius: 1rem;
+    gap: 2rem;
+}

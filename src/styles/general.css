@@ -1,0 +1,117 @@
+@import "./reset.css";
+:root {
+  font-size: 62.5%;
+  /*COLORS*/
+  --primary-dark: #122747;
+  --primary-light:#1d4f69;
+  --primary-green: #606f4a;
+  --primary-lightgreen: #9daf88;
+  --bright-color: #e0e5d3;
+  --white-color: #fafafa;
+
+  --autumn-color: #cc7f3a;
+  --summer-color: #699647;
+  --winter-color: #6d9e92;
+  --spring-color: #c1a736;
+
+  /*FONT*/
+  --bodyFont: "Source Sans 3", sans-serif;
+  --headingFont: "Montserrat", sans-serif;
+  --subHeadingFont: "Raleway", sans-serif;
+
+  --fontSizeXXL: 6rem; /* 45px */
+  --fontSizeXL: 4.8rem; /* 35px */
+  --fontSizeLG: 3.9rem; /* 29px */
+  --fontSizeMD: 3.1rem; /* 23px */
+  --fontSizeSM: 2.4rem; /* 18px */
+  --fontSizeXS: 1.6rem; /* 14px */
+  --fontSizeXSS: 1.2rem; /* 9px */
+
+  --small-spacing: 1rem;
+  --medium-spacing: 2rem;
+  --large-spacing: 3rem;
+
+  --border-radius: 6px;
+}
+
+body {
+  background-color: #ffffff; 
+  font-size: var(--fontSizeXS);
+  font-family: var(--bodyFont);
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-dark);
+}
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.heading-1,
+.heading-2,
+.heading-3 {
+  font-family: var(--headingFont);
+  line-height: 1.2;
+  color: var(--primary-dark);
+  font-weight: 500;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+.subheading-1,
+.subheading-2 {
+  font-family: var(--subHeadingFont);
+  
+  
+}
+.heading-1 {
+  font-size: var(--fontSizeXXL);
+}
+.heading-2 {
+  font-size: var(--fontSizeXL);
+}
+.heading-3 {
+  font-size: var(--fontSizeLG);
+}
+.subheading-1 {
+  font-size: var(--fontSizeMD);
+}
+.subheading-2 {
+  font-size: var(--fontSizeSM);
+}
+
+.main-body {
+  font-size: var(--fontSizeXS);
+}
+
+.info-text {
+  font-size: var(--fontSizeXSS);
+}
+
+.nav-link {
+  font-family: var(--subHeadingFont);
+  font-size: var(--fontSizeXS);
+}
+
+.container {
+  max-width: 1300px;
+  margin-inline: auto;
+}
+.small-spacing {
+  margin: var(--small-spacing);
+}
+
+.arrow-icon svg {
+  transition: transform 200ms ease;
+}
+.arrow-icon {
+  &.active svg {
+    transform: rotate(180deg);
+  }
+}
+
+.spacing-between{
+  margin-bottom: 2rem;
+}
