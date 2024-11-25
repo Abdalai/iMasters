@@ -16,7 +16,7 @@ export default function ContactForm() {
 
                 <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
 
-                    <input type="hidden" name="access_key" value="5611b8c9-662d-4438-88fb-5038bab71798"/>
+                    <input type="hidden" name="access_key" value="c999bb22-bed5-44c7-9fc4-1174d67f0ebf"/>
                     <input type="hidden" name="subject" value="New Contact Form Submission from iMasters" />
                     <input type="hidden" name="from_name" value="iMasters" />
 
