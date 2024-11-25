@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from 'react';
 import "../styles/about.css";
 import About_Us_Hero from "../components/About_us_hero.js";
 import ContactForm from "../components/ContactForm.js";
@@ -14,21 +14,20 @@ const About = () => {
         
         <section className="Choose_iMasters">
           <h1 className="main-heading">How does iMasters help you ?</h1>
-             
             <div className="cards_Container">
               <div className="cards">
-                <img  src="/images/011-guide.gif"></img>
+                <img alt='imasters'  src="/images/011-guide.gif"></img>
                 <h2 >IT Helping Hand</h2>
                 <p className="main-body">Keep your organisation secure and beneficial round the clock whether you reach us out by email, phone or face to face.</p>
                 
               </div>
               <div className="cards">
-                <img src="/images/038-check.gif"></img>
+                <img alt='imasters' src="/images/038-check.gif"></img>
                 <h2>Growing Your Business </h2>
                 <p className="main-body">We are well aware of the development needs of organisations like yours. <br/>  <br/>Now, use our authoritative knowledge to tailor our IT service to your professional objectives.</p>
               </div>
               <div className="cards">
-                <img src="/images/007-support-7.gif"></img>
+                <img alt='imasters' src="/images/007-support-7.gif"></img>
                 <h2>We Boost Time Efficiency</h2>
                 <p className="main-body">We understand that time is money. Therefore we design our services to increase your productivity to assist your show while lowering expenses.</p>
               </div>
@@ -39,7 +38,7 @@ const About = () => {
          <h1 className="main-heading">What Our Customers Say About Us</h1>
         </div>
         <section  className="hero-section">
-          <img className="hero-image" id="hero-image" src="/images/5236-1536x878 (1).gif"></img>
+          <img alt='imasters' className="hero-image" id="hero-image" src="/images/5236-1536x878 (1).gif"></img>
           <div className="hero-content-container container">
             <div className="hero-content">
               <p className="main-body">iMasters have built the IT infrastructure for my company and always offered great support which helped me stay focused on growing my business with zero IT worries. <br/>  <br/>  <br/>  <br/>  <br/>Sarah W.  <br/>Behaviour Consultancy</p>
@@ -53,13 +52,13 @@ const About = () => {
             <div className="hero-content">
             <p className="main-body">iMasters provided exceptional Mac Infrastructure support for one of our global defence clients. The team has shown great understanding of the enterprise needs and goals.<br/>  <br/>  <br/>  <br/>  <br/>Tom J.  <br/>Technology Agency</p>           
             </div>
-            <img className="hero-image" id="hero-image" src="/images/Wavy_Bus-32_Single-01-Converted-1-1536x1536.gif"></img>
+            <img alt='imasters' className="hero-image" id="hero-image" src="/images/Wavy_Bus-32_Single-01-Converted-1-1536x1536.gif"></img>
           </div>
         </section>
         
         
         <section  className="hero-section">
-          <img className="hero-image" id="hero-image" src="/images/5236-1536x8781.gif"></img>
+          <img alt='imasters' className="hero-image" id="hero-image" src="/images/5236-1536x8781.gif"></img>
           <div className="hero-content-container container">
             <div className="hero-content">
               <p className="main-body">We’ve worked with iMasters in a previous business for years. When we started the new adventure we partnered with them to help us grow yet another business. <br/>  <br/>  <br/>  <br/>  <br/>Alistair H. <br/>Clothing Brand</p>
