@@ -4,15 +4,9 @@
   /*COLORS*/
   --primary-dark: #122747;
   --primary-light:#1d4f69;
-  --primary-green: #606f4a;
-  --primary-lightgreen: #9daf88;
   --bright-color: #e0e5d3;
   --white-color: #fafafa;
-
-  --autumn-color: #cc7f3a;
-  --summer-color: #699647;
-  --winter-color: #6d9e92;
-  --spring-color: #c1a736;
+  --box-shadow: rgba(55, 58, 33, 0.25);
 
   /*FONT*/
   --bodyFont: "Source Sans 3", sans-serif;

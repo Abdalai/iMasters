@@ -32,7 +32,7 @@
   
   .footer-links details {
     padding: 1rem 0;
-    border-bottom: 0.1rem solid white;
+    border-bottom: 0.1rem solid var(--white-color);
     width: 100%;
   }
   
@@ -91,7 +91,7 @@
   
   
   .footer-links details a {
-    color: white;
+    color: var(--white-color);
     text-decoration: none;
   }
   
@@ -121,7 +121,7 @@
   
   .copyright {
     font-size: 1.5rem;
-    color: white;
+    color: var(--white-color);
     margin-top: 1.25rem;
   }
   
@@ -143,7 +143,7 @@
       align-items: center;
       justify-content: center;
       padding: 2rem 0;
-      max-width: 1300px;
+      max-width: 130rem;
       margin: 0 auto;
       width: 100%;
     }
@@ -182,7 +182,7 @@
     .footer-column h4 {
       font-weight: 500;
       margin-bottom: 1rem;
-      color: white;
+      color: var(--white-color);
     }
   
     .footer-column p {
@@ -190,7 +190,7 @@
     }
   
     .footer-column a {
-      color: white;
+      color: var(--white-color);
       text-decoration: none;
     }
   
@@ -216,7 +216,7 @@
       text-align: center;
       font-size: 1.5rem;
       margin-top: 2rem;
-      color: white;
+      color: var(--white-color);
     }
   }
   

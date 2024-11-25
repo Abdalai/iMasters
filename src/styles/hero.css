@@ -31,7 +31,7 @@
   
   .main-body {
     font-size: 1.125rem;
-    color: #4A4A4A; 
+    color: var(--primary-dark); 
     line-height: 1.6;
   }
   
