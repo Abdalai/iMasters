@@ -40,10 +40,10 @@ const Home = () => {
               </div>
         
         </section> 
-
-        <section  className="hero-section">
+        
+        <section  className="hero-section" id="container-top1">
           <img className="hero-image" id="hero-image"  alt="iMasters" src="/images/Productivity_and_Peace_of_Mind.png"></img>
-          <div className="hero-content-container container">
+          <div className="hero-content-container container ">
             <div className="hero-content">
               <h1 className="main-heading">Productivity and Peace of Mind</h1>
               <p className="main-body">At the point when you work with iMasters , you can have confidence that we are taking care of your IT. We accomplish the specialized work so you can zero in on additional important, useful undertakings that advance business development and benefit.</p>
@@ -51,7 +51,7 @@ const Home = () => {
           </div>
         </section>
         
-        <section  className="hero-section">
+        <section  className="hero-section" id="container-top2">
           
           <div className="hero-content-container container">
             <div className="hero-content">
@@ -64,7 +64,7 @@ const Home = () => {
         </section>
         
         
-        <section  className="hero-section">
+        <section  className="hero-section" id="container-top3">
           <img className="hero-image" id="hero-image"  alt="iMasters" src="/images/20945101-Converted-1.png"></img>
           <div className="hero-content-container container">
             <div className="hero-content">
@@ -76,7 +76,7 @@ const Home = () => {
         </section>
             
 
-        <section className="Choose_iMasters">
+        <section className="Choose_iMasters" id="container-top4">
           <h1 className="main-heading">Why Choose iMasters?</h1>
              
             <div className="cards_Container">

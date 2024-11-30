@@ -132,11 +132,6 @@
 
 
 
-@media (min-width:1000px) {
-  
-  
-
-}
 
 .Technologies h1{
   margin-bottom: 10rem;
@@ -177,5 +172,17 @@
 }
 
 
+#container-top1{
+  margin-top: -7rem;
+}
 
+#container-top2{
+  margin-top: -16rem;
+}
+#container-top3{
+  margin-top: -20rem;
+}
 
+#container-top4{
+  margin-top: -8rem;
+}
