@@ -1,0 +1,155 @@
+.faq-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  flex: 1;
+  padding: 4rem 2rem;
+}
+
+.faq-content {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.faq-list {
+  background: white;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 1.5rem;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #f9fafb;
+}
+
+.faq-icon {
+  font-size: 1.5rem;
+  color: var(--primary-dark);
+  font-weight: 300;
+  transition: transform 0.3s ease;
+}
+
+.faq-item-open .faq-icon {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.faq-item-open .faq-answer {
+  max-height: 1000px;
+}
+
+.faq-answer p {
+  width: 100%;
+  margin: 0;
+  padding: 0 1.5rem 1.5rem;
+  color: #4b5563;
+  line-height: 1.8;
+  font-size:1.8rem;
+  box-sizing: border-box;
+}
+
+.faq-sidebar {
+  text-align: center;
+  background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-dark) 100%);
+  padding: 3rem 2rem;
+  border-radius: 0.6rem;
+  color: white;
+  margin-top: 3rem;
+}
+
+.faq-contact-card,
+.faq-services-card {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  text-align: center;
+}
+
+.faq-contact-card {
+  background: transparent;
+}
+
+.faq-contact-card h3,
+.faq-services-card h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.faq-contact-card p,
+.faq-services-card p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+ .faq-contact-card h3,
+ .faq-services-card h3 {
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+   color: white;
+ }
+  .faq-question {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .faq-answer p {
+    padding: 0 1rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .faq-sidebar {
+    padding: 2rem 1.5rem;
+  }
+  
+}

@@ -7,7 +7,9 @@ import { FaBars, FaTimes } from "react-icons/fa";
 // Navigation links
 const navLinks = [
   { to: "/", textContent: "Home" },
-  { to: "/about", textContent: "About us" }, 
+  { to: "/about", textContent: "About us" },
+  { to: "/why-apple", textContent: "Why Apple" },
+  { to: "/FAQ", textContent: "FAQ" },
 ];
 
 export default function Header() {
