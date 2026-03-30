@@ -65,7 +65,7 @@ const About = () => {
             </div>
           </div>
         </section>
-
+        {/* 
         <section className="Our_Clients">
           <h1 className="main-heading">Our Clients</h1>
                 <div className="Clients">
@@ -78,6 +78,8 @@ const About = () => {
                   </div>
                 </div>    
         </section> 
+
+        */}
       </div>
 
       <ContactForm/>
