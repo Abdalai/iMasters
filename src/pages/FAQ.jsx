@@ -4,6 +4,7 @@ import { useState } from "react"
 import "../styles/FAQ.css"
 import { Link } from "react-router-dom"
 import FaqHero from "../components/FaqHero.js";
+import ContactForm from "../components/ContactForm.js";
 
 
 const FAQ = () => {
@@ -86,13 +87,15 @@ const FAQ = () => {
             <div className="faq-sidebar">
               <div className="faq-contact-card">
                 <h3>Still have questions? Get in touch</h3>
-                <Link to="/about" className="btn btn-primary">Book a Consultation or Contact Us</Link>
+                <Link to="/FAQ" className="btn btn-primary">Book a Consultation or Contact Us</Link>
               </div>
             </div>
           </div>
         </div>
       </section>
+       <ContactForm/>
     </div>
+   
   )
 }
 

@@ -130,7 +130,11 @@
     animation-delay: calc(30s / 8 * (8 - 8) * -1);
   }
 
-
+  .item1, .item2 , .item3 , .item4 , .item5 , .item6 , .item7 , .item8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 
 .Technologies h1{

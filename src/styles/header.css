@@ -16,6 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .header-container {
@@ -33,6 +34,11 @@
   width: 16rem;
 }
 
+.apple-partner-logo {
+  max-width: 12rem;
+  margin-left: 1rem;
+}
+
 .desktop-link {
   font-size: 1.5rem;
   color: var(--primary-dark);
@@ -44,6 +50,7 @@
 .mobile-menu {
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
 /* Mobile menu styles */
@@ -120,6 +127,15 @@
   .mobile-menu-2,
   .hamburger {
     display: none;
+  }
+
+  .apple-partner-logo {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10rem;
+    margin-left: 0;
   }
 }
 

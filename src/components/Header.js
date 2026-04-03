@@ -38,6 +38,7 @@ export default function Header() {
 
         {/* Hamburger Menu and Mobile Navigation */}
         <div className="mobile-menu">
+          <img src="/images/Apple_Tech_Partner_Logo_2ln_Blk_CI_050725.svg" alt="Apple Tech Partner Logo" className="apple-partner-logo" />
           <HamburgerMenu active={mobileMenuActive} onClick={toggleMenu} />
           <div className={`mobile-menu-2 ${mobileMenuActive ? "active" : ""}`} role="navigation">
             {navLinks.map((link) => (

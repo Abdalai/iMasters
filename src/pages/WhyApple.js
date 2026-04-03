@@ -167,7 +167,7 @@ const WhyApple = () => {
       <div className="faq-sidebar">
         <div className="faq-contact-card">
           <h3>Need help with your Apple environment?             Speak to iMasters to improve how your business deploys, manages, and secures Apple devices.</h3>
-          <Link to="/about" className="btn btn-primary">
+          <Link to="/FAQ" className="btn btn-primary">
             Book a Consultation or Contact Us
           </Link>
         </div>

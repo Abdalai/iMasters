@@ -13,7 +13,7 @@ const Home = () => {
           <h1 className="main-heading">Technologies We Have Mastered</h1>
               <div class="wrapper">
                 <div class="item item1">
-                  <img src="/images/logo1.jpg" alt="Logo 1" />
+                  <img src="/images/Apple_Tech_Partner_Logo_2ln_Blk_CI_050725.svg" alt="Logo 1" />
                 </div>
                 <div class="item item2">
                   <img src="/images/logo2.png" alt="Logo 2" />
@@ -25,7 +25,7 @@ const Home = () => {
                   <img src="/images/logo4.png" alt="Logo 4" />
                 </div>
                 <div class="item item5">
-                 <img src="/images/logo1.jpg" alt="Logo 1" />
+                 <img src="/images/Apple_Tech_Partner_Logo_2ln_Blk_CI_050725.svg" alt="Logo 1" />
                 </div>
                 <div class="item item6">
                   <img src="/images/logo2.png" alt="Logo 2" />

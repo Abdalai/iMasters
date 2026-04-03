@@ -82,7 +82,7 @@ const About = () => {
         */}
       </div>
 
-      <ContactForm/>
+      
     
     </div>
   );
