@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/about.css";
 import AboutUsHero from "../components/AboutUsHero.js";
-import ContactForm from "../components/ContactForm.js";
+
 
 
 
