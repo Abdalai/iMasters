@@ -4,8 +4,6 @@ import '../styles/whyapple.css';
 import WhyAppleHero from '../components/WhyAppleHero';
 
 const WhyApple = () => {
-  const [expandedFaq, setExpandedFaq] = useState(null);
-
   const services = [
     {
       title: 'Apple Device Management',
@@ -48,25 +46,6 @@ const WhyApple = () => {
     'Cyber Security background',
     'Experience supporting business environments'
   ];
-
-  const faqPreview = [
-    {
-      question: 'What services does iMasters provide?',
-      answer: 'Apple device management, Jamf consultancy, security, deployment, and support.'
-    },
-    {
-      question: 'Do you support macOS and iOS?',
-      answer: 'Yes, we support macOS, iOS, and iPadOS environments.'
-    },
-    {
-      question: 'Do you offer ongoing support?',
-      answer: 'Yes, both project-based and ongoing support options are available.'
-    }
-  ];
-
-  const toggleFaq = (index) => {
-    setExpandedFaq(expandedFaq === index ? null : index);
-  };
 
   return (
     <div className="whyapple-page">
@@ -134,50 +113,21 @@ const WhyApple = () => {
         </div>
       </section>
 
-      {/* FAQ Preview Section */}
       <section className="section">
-  <div className="container">
-    <div className="faq-content">
-
-      <div className="faq-list">
-        {faqPreview.map((item, index) => (
-          <div
-            key={index}
-            className={`faq-item ${expandedFaq === index ? "faq-item-open" : ""}`}
-          >
-            <button
-              className="faq-question"
-              onClick={() => toggleFaq(index)}
-            >
-              <span>{item.question}</span>
-              <span className="faq-icon">
-                {expandedFaq === index ? "−" : "+"}
-              </span>
-            </button>
-
-            {expandedFaq === index && (
-              <div className="faq-answer">
-                <p className="main-body">{item.answer}</p>
+        <div className="container">
+          <div className="faq-content">
+            <div className="faq-sidebar">
+              <div className="faq-contact-card">
+                <h3>Need help with your Apple environment? Speak to iMasters to improve how your business deploys, manages, and secures Apple devices.</h3>
+                <Link to="/FAQ" className="btn btn-primary">
+                  Book a Consultation or Contact Us
+                </Link>
               </div>
-            )}
+            </div>
           </div>
-        ))}
-      </div>
-
-      <div className="faq-sidebar">
-        <div className="faq-contact-card">
-          <h3>Need help with your Apple environment?             Speak to iMasters to improve how your business deploys, manages, and secures Apple devices.</h3>
-          <Link to="/FAQ" className="btn btn-primary">
-            Book a Consultation or Contact Us
-          </Link>
         </div>
-      </div>
+      </section>
 
-    </div>
-  </div>
-</section>
-
-      
     </div>
   );
 };

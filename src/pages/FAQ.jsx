@@ -24,7 +24,7 @@ const FAQ = () => {
         "iMasters specialises in Apple-focused IT services, including device management, security hardening, deployment, and consultancy. We design, implement, and support scalable Mac environments using industry-leading tools, with a strong focus on performance, security, and user experience.",
     },
     {
-      question: "Do you support both macOS and iOS devices?",
+      question: "Do you support macOS and iOS?",
       answer:
         "Yes. We support the full Apple ecosystem including macOS, iOS, and iPadOS. Whether your team uses MacBooks, iPhones, or iPads, we ensure they are securely managed, properly configured, and aligned with your business needs.",
     },
@@ -39,7 +39,7 @@ const FAQ = () => {
         "We work with organisations of all sizes, from growing startups to established enterprises. Our services are tailored to your scale, whether you need a simple setup or a fully managed, enterprise-grade Apple environment.",
     },
     {
-      question: "Do you offer ongoing support or only project-based work?",
+      question: "Do you offer ongoing support?",
       answer:
         "We offer both. Clients can engage us for one-off projects such as deployments or audits, or opt for ongoing support and management. Our flexible model allows you to scale support based on your needs.",
     },
@@ -86,8 +86,7 @@ const FAQ = () => {
 
             <div className="faq-sidebar">
               <div className="faq-contact-card">
-                <h3>Still have questions? Get in touch</h3>
-                <Link to="/FAQ" className="btn btn-primary">Book a Consultation or Contact Us</Link>
+                <h3>Still have questions? Book a Consultation or Contact Us</h3>
               </div>
             </div>
           </div>
