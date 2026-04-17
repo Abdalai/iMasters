@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import "../styles/FAQ.css"
-import { Link } from "react-router-dom"
 import FaqHero from "../components/FaqHero.js";
 import ContactForm from "../components/ContactForm.js";
 
