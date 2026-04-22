@@ -8,7 +8,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const navLinks = [
   { to: "/", textContent: "Home" },
   { to: "/about", textContent: "About us" },
-  { to: "/why-apple", textContent: "Why Apple" },
+  { to: "/why-apple", textContent: "Why us" },
   { to: "/FAQ", textContent: "FAQ" },
 ];
 

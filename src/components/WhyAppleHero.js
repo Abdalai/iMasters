@@ -5,15 +5,15 @@ function WhyAppleHero() {
   return (
     <picture className="hero-image" id="hero-image">
       <source
-        srcSet="../../images/why-apple.png"
+        srcSet="../../images/whyus.jpeg"
         type="image/png"
       />
       <source
-        srcSet="../../images/why-apple.png"
+        srcSet="../../images/whyus.jpeg"
         type="image/jpg"
       />
       <img
-        src="../../images/why-apple.png"
+        src="../../images/whyus.jpeg"
         alt=""
         loading="lazy"
         className="hero-img"

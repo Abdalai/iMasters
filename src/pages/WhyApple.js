@@ -43,8 +43,8 @@ const WhyApple = () => {
   const trustPoints = [
     'Apple ecosystem specialists',
     'Jamf experience and implementation',
-    'Cyber Security background',
-    'Experience supporting business environments'
+    'Cyber Security Support',
+    'Supporting business growth'
   ];
 
   return (
@@ -92,7 +92,11 @@ const WhyApple = () => {
               </ul>
             </div>
             <div className="wa-why-text">
-              <p className='main-body'>We help businesses simplify Apple device management with a practical, no-nonsense approach focused on reliability, security, and user experience.</p>
+              <p className='main-body'>We partner with businesses to design, deploy, and manage secure, scalable Apple environments. Combining deep Apple and Jamf expertise with a practical, hands-on approach, we focus on delivering solutions that are reliable, maintainable, and aligned with how your business actually operates-not generic best practice.
+
+From initial setup and zero-touch deployment to ongoing management, security hardening, and user support, we ensure your Apple estate runs smoothly at every stage. Our work is guided by a strong security-first mindset, clear communication, and an understanding of both technical and business priorities.
+
+The result is an environment that not only works as expected but supports productivity, reduces friction for users, and gives your organisation confidence that devices are managed properly and securely over time.</p>
             </div>
           </div>
         </div>
