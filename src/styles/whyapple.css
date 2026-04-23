@@ -123,8 +123,162 @@
   margin-bottom: 1rem;
 }
 
+/* Certifications Section */
+.wa-certifications {
+  padding: 6rem 2rem;
+  background-color: white;
+}
 
+.wa-certifications .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.wa-certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.wa-certification-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wa-certification-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+}
+
+.wa-cert-image {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.wa-certification-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+  margin-bottom: 1rem;
+}
+
+.wa-certifications .wa-cert-subtitle {
+  text-align: center !important;
+  margin: 0 auto 3rem auto !important;
+  max-width: 100% !important;
+  display: block !important;
+}
+
+/* Client Success Stories Section */
+.wa-success-stories {
+  padding: 6rem 2rem;
+  background-color: #fafafa;
+}
+
+.wa-success-stories .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wa-success-subtitle {
+  text-align: center !important;
+  margin: 0 auto 2rem auto !important;
+  display: block !important;
+  color: var(--primary-dark);
+  font-weight: 500;
+}
+
+.wa-success-intro {
+  background: transparent;
+  padding: 0;
+  margin-bottom: 3rem;
+  text-align: center;
+  box-shadow: none;
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wa-success-intro p {
+  color: var(--primary-dark);
+  line-height: 1.8;
+  margin: 0;
+  margin-top: 2rem;
+  max-width: 1000px;
+  font-size: var(--fontSizeXS);
+  text-align: left;
+}
+
+.wa-success-stories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.wa-success-story-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-left: 5px solid var(--primary-light);
+  transition: all 0.3s ease;
+}
+
+.wa-success-story-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  transform: translateX(4px);
+}
+
+.wa-story-category {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary-light);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+}
+
+.wa-story-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+  margin-bottom: 1.2rem;
+  font-family: var(--headingFont);
+}
+
+.wa-story-description {
+  color: var(--primary-dark);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.wa-story-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.wa-story-tag {
+  display: inline-block;
+  background: #f0f0f0;
+  color: var(--primary-dark);
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Responsive Design */
 /* Responsive Design */
 @media (max-width: 768px) {
   .wa-hero {
@@ -180,6 +334,31 @@
     gap: 1.5rem;
   }
 
+  .wa-certifications {
+    padding: 4rem 1.5rem;
+  }
+
+  .wa-certifications-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .wa-success-stories {
+    padding: 4rem 1.5rem;
+  }
+
+  .wa-success-intro {
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .wa-success-story-card {
+    padding: 2rem;
+  }
+
+  .wa-story-title {
+    font-size: 1.3rem;
+  }
 
   .wa-final-cta {
     padding: 4rem 1.5rem;
@@ -210,6 +389,37 @@
   .wa-points-list li {
     font-size: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .wa-certifications-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .wa-cert-image {
+    width: 90px;
+    height: 90px;
+  }
+
+  .wa-certification-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .wa-story-title {
+    font-size: 1.1rem;
+  }
+
+  .wa-story-category {
+    font-size: 0.75rem;
+  }
+
+  .wa-story-tags {
+    gap: 0.5rem;
+  }
+
+  .wa-story-tag {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.75rem;
   }
 
   .wa-cta-title {
