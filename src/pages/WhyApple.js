@@ -40,14 +40,6 @@ const WhyApple = () => {
     {
       title: 'Network & Infrastructure',
       description: 'Set up and manage secure, reliable networks built for Apple environments — including Wi-Fi, VLANs, firewalls, and hybrid Windows integration.'
-    },
-    {
-      title: 'Edit Apple Training & Onboarding to become',
-      description: 'We run hands-on training for teams adopting Apple for the first time or switching from Windows.'
-    },
-    {
-      title: 'Edit Mac Evaluation & Readiness Assessment to become',
-      description: 'Not sure if your business is ready for Mac? We carry out a structured evaluation of your current environment covering hardware, software compatibility, infrastructure, and costs.'
     }
   ];
 
